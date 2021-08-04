@@ -1,0 +1,6 @@
+--------------------Setting---------------------
+
+create database soundcloud;
+create user 'scc'@'localhost' identified by '0916';
+grant all privileges on soundcloud.* to 'scc'@'localhost';
+flush privileges;
